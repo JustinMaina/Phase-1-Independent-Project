@@ -19,3 +19,40 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+# Weather Application
+
+## Description:
+A simple web application that allows users to fetch and display current weather data for a specified city using the OpenWeatherMap API.
+
+## Demo:
+[Live Demo](https://your-demo-url.com)
+
+## Features:
+- Fetch current weather data for a specified city.
+- Display temperature and weather description.
+- Handle errors for failed API requests.
+- User-friendly interface.
+
+## Usage:
+1. Enter a city name into the input field.
+2. Submit the form to fetch weather data.
+3. View the displayed weather information.
+
+## Technologies Used:
+- HTML
+- CSS
+- JavaScript
+- OpenWeatherMap API
+
+## Installation:
+To run the application locally:
+1. Clone this repository.
+2. Open index.html in your web browser.
+
+## Credits:
+- OpenWeatherMap API (https://openweathermap.org/)
+
+## License:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+

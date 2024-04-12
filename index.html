@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        
+        <!-- Current Weather Section -->
+        <div id="currentWeather">
+            <h2>Current Weather</h2>
+            <p id="weatherDescription">Loading...</p>
+            <p id="temperature">Loading...</p>
+        </div>
+
+        <!-- Future Forecasts Section -->
+        <div id="futureForecasts">
+            <h2>Future Forecasts</h2>
+            <div id="forecastCards">
+                <!-- Forecast cards will be dynamically generated here -->
+            </div>
+        </div>
+
+        <!-- To-Do List Form -->
+        <div id="toDoList">
+            <h2>What's on your agenda?</h2>
+            <form id="toDoForm">
+                <label for="task">Task:</label>
+                <input type="text" id="task" name="task" required>
+                <button type="submit" class="btn btn-primary">Add Task</button>
+            </form>
+            <ul id="taskList">
+                <!-- To-do list items will be dynamically generated here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Link to Bootstrap JS (optional, if you plan to use Bootstrap components that require JavaScript) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Link to custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
